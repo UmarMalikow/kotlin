@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#7C7A7A"
+    android:layout_height="match_parent"
+    tools:context=".DetFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        app:cardCornerRadius="24dp"
+        app:strokeColor="@color/black"
+        tools:cardBackgroundColor="#FFFFFF"
+        app:strokeWidth="5dp">
+
+        <ImageView
+            android:id="@+id/Image"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="center"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/tv_name_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        tools:text="Hello"
+        android:textSize="50sp"
+        android:layout_marginBottom="130dp"
+        android:textColor="@color/black"/>
+
+</FrameLayout>
